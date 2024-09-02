@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.Bild1 {
+    width: 400px;
+    padding: 10px;
+}
+
+.Bild2 {
+    width: 50%;
+}
+.Bild3 {
+    width: 20em;
+}
+.Bild4 {
+    width: 40rem;
+}
+.Bild5{
+    width: 35vw;
+}
+.Bild6{
+    width: 75vh;
+}

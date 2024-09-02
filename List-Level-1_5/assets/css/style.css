@@ -1,0 +1,27 @@
+h1 {
+    color: sienna;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+spam{
+    color: crimson
+}
+
+section ul li span {
+    color: rgb(119, 17, 221)
+}
+
+a{
+    display: block;
+}
+
+
+/** Selektoren */ 
+
+section: nth-of-type(2){
+    background-color: 
+}
