@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0; 
+    box-sizing: border-box;
+}
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 62.2%;
+}
+body{
+    margin: 5vh 10vw;
+}
+.redstar::after{
+    content:" *";
+    color: red
+}
+div{
+    margin: 20px 0;
+}
+input{
+padding: 5px;
+}
+.name input{
+    width: 25%;
+}
+.mail input{
+    width: 50%;
+}
+
+.thema input{
+    width: 50%;
+
+}
+
+label{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2px 0;
+}
+input[type=submit]{
+    width: 50%;
+    background-color: aqua;
+    color: white;
+    padding: 20px 20px;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+
