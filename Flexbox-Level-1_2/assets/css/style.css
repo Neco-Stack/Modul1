@@ -3,8 +3,6 @@ html{
 }
 
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -14,10 +12,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 35px;
 }
 
-/*so fügst du ein Bild als Hintergrund ein und justierst die Auflösung, ohne Wiederholung und zentriert*/
+/*so fügst du ein Bild als Hintergrund ein und justierst die Auflösung, ohne Wiederholung und zentrierst*/
 
 
 body{
@@ -29,7 +27,13 @@ body{
 }
 
 /* so kann du die Navigationszeile in einer andere Farbe hervorheben */
-nav{
+div{
     background-color: grey;
     opacity: 0.7;
+}
+h1{
+color: red;
+}
+.con {
+font-weight: 400;
 }

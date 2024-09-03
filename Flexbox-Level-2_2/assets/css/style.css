@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* Sprache bei Google Fonts downloaden und als ttf im Ordner Fonts abspeichern, via ../../ hier aktivierbar*/
+@font-face {
+    font-family: Raleway;
+    src: url(../../Font/Raleway-VariableFont_wght.ttf);
+}
+ul{
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+    color: #333;
+    gap: 20px;
+}
+
+header{
+    height: 76px;
+    color: #666;
+}
+a:hover{
+    color: #337ab7;
+}
