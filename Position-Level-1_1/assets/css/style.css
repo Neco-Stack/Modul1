@@ -8,14 +8,19 @@
     src: url(./fonts/Poppins-Black.ttf);
 }
 body{
-    background-image: url(./img/rohit-tandon-ku79qGpxWXQ-unsplash.jpg);
+    background-image: url("./img/rohit-tandon-ku79qGpxWXQ-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: none;
     height: 100vh;
 }
+
+header{
+    position: relative;
+}
+
 nav{
-    position: absolute;
+    position: absolute ;
     top: 100px;
     right: 100px;
     color:  brown;
