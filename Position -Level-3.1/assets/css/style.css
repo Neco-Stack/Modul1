@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "monoton";
+    src: url(../fonts/Monoton-Regular.ttf);
+}
+@font-face {
+    font-family: "ubuntu";
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+*{
+    margin:0;
+    padding:0; 
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: "ubuntu"
+}
+body{
+    height: 100vh;
+}
+
+/* div{color:#070707; */
+/* color:#9d9f9f;text  */
+/* color: #f4f7f8;hover text  */
+/* color: #ac8059}shop all,, kreise */
+
+nav{
+    border: 2px solid red;
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-left{
+    border: 2px solid limegreen;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.nav-right{
+    border: 2px solid violet;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 45rem;
+    
+
+}
+h2{
+    font-family: "monoton";
+    font-size: 5rem;
+}
