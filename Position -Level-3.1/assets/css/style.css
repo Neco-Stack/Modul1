@@ -18,38 +18,32 @@ html{
 body{
     height: 100vh;
 }
+a{
+    text-decoration: none;
 
-/* div{color:#070707; */
-/* color:#9d9f9f;text  */
-/* color: #f4f7f8;hover text  */
-/* color: #ac8059}shop all,, kreise */
-
-nav{
-    border: 2px solid red;
+}
+.h{
+    font-size: 1.3rem;
+    font-family: "monoton";
+}
+.topp{
     display: flex;
-    padding: 25px;
-    width: 100%;
-    text-align: center;
     align-items: center;
 }
-
-.nav-left{
-    border: 2px solid limegreen;
-    padding: 0 8px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+nav{
+    border-bottom: 1px solid black
 }
 .nav-right{
-    border: 2px solid violet;
-    padding: 0 8px;
-    display:flex;
-    align-items:center;
-    text-align: center;
-    margin-left: 78rem;
-    
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 5rem;
+    font-size: 0.5rem
 }
-h2{
-    font-family: "monoton";
-    font-size: 5rem;
+.left{
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    font-size: 0.5rem;
+    margin-left: 20px;
 }
