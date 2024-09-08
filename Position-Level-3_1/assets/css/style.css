@@ -1,20 +1,10 @@
-*, 
-*::before, 
-::after{
+*,
+**::before,
+**::after{
     box-sizing: border-box;
-}
-
-*{
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
-
-:root{
-    --clr-1: #070707;
-    --clr-2: #9d9f9f;
-    --clr-3: #ac8059; 
-}
-
 @font-face {
     font-family: "monoton";
     src: url(../fonts/Monoton-Regular.ttf);
@@ -23,101 +13,89 @@
     font-family: "ubuntu";
     src: url(../fonts/Ubuntu-Bold.ttf);
 }
-
-html{
-    font-size: 10px;
-    font-family: "ubuntu"
+:root{
+    --backclr: #070707; 
+    --clr1: #9d9f9f;
+    --clr2: #f4f7f8;
+    --clr3: #ac8059;
 }
-
 body{
     height: 100vh;
-    width: 100vw;
-    background-color: #1d2025
-}
-
-/* Styling des Headers */
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #727577;
-    height: 10vh;
-}
-.logo-home{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3.5rem;
-    margin-left: 5rem;
-    color: #727577;
-}
-.login{
+    width: 1440px;
+    background-color: #1d2025;
     font-family: "ubuntu";
-    font-size: 1rem;
 }
-
-/* nav ul{ */
-    /* display: flex; */
-    /* align-items: center */
-    /* justify-content: center; */
-    /* margin-right: 15rem; */
-    /* gap: 12rem; */
-    
-.logo{
-    font-size: 4rem;
-    color:#727577;
-    font-family: "monoton";
-    text-decoration: none;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 8rem;
-    padding-right: 15rem;
-}
-ul{
-    list-style: none;
-}
-
 a{
     text-decoration: none;
+}
+.logo{
+    font-size: 3.5rem;
+    font-family: "monoton";
     color: #727577;
+    padding-left: 50px;
+    margin-right: 2rem;
 }
-h1{
-    font-family: "ubuntu";
-}
-/* ab hier beginnt der Mainpart */
-main{
-    display: flex;
-    flex-direction: center;
-    gap: 4rem;
-    justify-content: space-evenly;
+.login{
     align-items: center;
-    font-family: "ubuntu";
-}
+    text-align: center;
 
-.text div{
-    font-size: 60px;
-    font-weight: 700;
-    width: 360px;
-    margin-bottom: 10vh;
-    display: flex;
-    align-items: center;
 }
-text{
+nav a {
+    color: #6f6864;
+    font-size: 1.2rem;
+}
+.flex{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-.text a{
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--clr-3);
+
+nav{
+    justify-content: space-around;
+    border-bottom: 1px solid #727577;
 }
-.img{
+.homebutton{
+    color: #f4f7f8;
+}
+main{
+    position: relative;
     display: flex;
-    gap: 15px;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-img-box-flex{
+    display: flex;
+    align-items: center;
+}
+.mainflex{
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: 12rem;
+}
+.startflex{
+    justify-content: space-between;
+    align-items: center;
+}
+.right-flex{
+    justify-content: space-around;
+}
+.main-img-box-flex{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    position: relative;
+    height: 90vh;
+}
+h1{
+    font-size: 4rem;
+    color: var(--clr1);
+    text-align: center;
 }
