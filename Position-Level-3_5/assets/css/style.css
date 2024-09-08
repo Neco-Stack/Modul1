@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "montserrat";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+a{
+    text-decoration: none;
+    font-size: 1.5 rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.7rem;
+}
+.gravelbike{
+    background-image: url(../img/bg-bike.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.sticky{
+    display: flex;
+    align-items: center;
+}
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fahrrad{
+    position: relative;
+    top: 35vh;
+    left: 8vw;
+}
+nav{
+    background-color: #00000084;
+    justify-content: space-around;
+    position: sticky;
+    padding: 1rem 5rem;
+}
+.rightnav{
+    display: flex;
+    justify-content: space-between
+}
+.rightnav a {
+    color: #fff;
+}
+.logo{
+    color: #fff;
+    font-size: 1.5rem;
+}
