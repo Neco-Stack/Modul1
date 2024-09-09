@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    height: 100vh;
+    display: grid;
+    color: white;
+    text-align: start;
+}
 
 .header{
     background-color: blue;
@@ -22,6 +27,7 @@
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 2px
 }
 .header{
     grid-row:1/1;
@@ -39,6 +45,4 @@
     grid-row: 5/5;
     grid-column: 1/5;
 }
-body{
-    height: 100%;
-}
+
