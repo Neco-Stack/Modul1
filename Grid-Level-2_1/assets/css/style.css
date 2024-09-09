@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery-container{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-areas: 
+    "a b c"
+    "d e f";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem; 
+    height: 10;
+    margin: 1rem;
+
+    /* gap macht Platz zwischen den einzlenen bilern */
+}
+    /* grid-template-columns: repeat(3, 1fr); */
+/* or grid-template-colums: repeat(3, 1fr); create a 3-column grid */
+img{
+    width: 100%;
+    height: 100%;
+}
+/* sorgt dafür das die bilder die größe des containers a */
+/* .pic1{ */
+    grid-area: a;
+/* } */
+/* .pic2{ */
+    grid-area: b;
+/* } */
+/* .pic3{ */
+    grid-area: c;
+/* } */
+/* .pic4{ */
+    grid-area: d;
+/* } */
+/* .pic5{ */
+    grid-area: e;
+/* } */
+/* .pic6{ */
+    grid-area: f;
+/* } */
+/* .pic8{ */
+    grid-area: g;
+/* } */
+/* .pic9{ */
+    grid-area: h;
+/* } */
+
+div{
+    position: relative;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    font-size: 1.5rem;
+    z-index: -1;
+    width: 100%;
+    color: white;
+}
+img:hover ~ p {
+    display: flex;
+    top: 0;
+    transition: 0.7s;
+    z-index: 1;
+    background-color: #0000004d;
+}
