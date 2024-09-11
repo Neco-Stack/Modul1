@@ -1,0 +1,22 @@
+
+#layout {
+    background-color: #f1f1f1;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+p {
+    color: #333;
+}
+button {
+    background-color: lightblue;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-width: 1px solid green;
+}
