@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(../fonts/Montserrat-Black.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+h3::first-letter{
+    color: #2e8b57;
+    font-size: 3em;
+}
+h3:hover:first-letter{
+    color: #00ced1;
+}
+.blau::first-letter{
+    color: #00bfff;
+    font-size: 2em; 
+}
+.rot::first-letter{
+    color: #c71585;
+    font-size: 2em;
+    text-decoration: overline;
+}
+.grün::first-letter{
+    color: #32cd32; 
+    text-decoration: line-through;
+    font-size: 2em;
+}
+.grün{
+    text-decoration: line-through;
+}
+p{
+    font-size: 20px;
+}
+.hover-ja::first-line{
+    color: #2e8b57;;
+}
+.hover-ja::first-letter{
+    font-size: 2em;
+    color: red;
+}
+.hover-ja:hover{
+    color: blue;
+}
