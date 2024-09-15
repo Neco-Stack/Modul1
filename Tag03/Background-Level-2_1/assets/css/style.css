@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+section{
+    background-image: url(../img/photo-1460602594182-8568137446ce\ \(1\).avif);
+    background-repeat: repeat-x;
+    color: white;
+    background-size: 25%;
+    text-align: center;
+}
+article{
+    background-image: url(../img/samsung-memory-jbmjneY3a6g-unsplash\ \(1\).jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
