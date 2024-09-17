@@ -1,8 +1,11 @@
-function diff(){
-    let age1 = document.getElementById("ageinput").value; 
-    let age2 = document.getElementById ("ageinput2").value;
+function shischa(){
+    event.preventDefault(); 
+    const ageinput = parseInt(document.querySelector("#ageinput").value)
+    const antwort = document.getElementById("antwort");
 
-    let difference = age1 - age2; 
-
-    document.getElementById("output").innerText= difference; 
+    if (age >= 18){
+        result.textContent = "Ja du darfst rauchen."; 
+    } else if (age <18 && age >=0) {
+        result.textContent = "Nein auf KEINEN FALL"
+    };
 }

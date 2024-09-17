@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conditions-Level-1_1</title>
 </head>
 <body>
+    <h1 style="color:blue">JavaScript: if else statement</h1>
+    <p style="font-weight: 600">Hier prüft die if else-Anweisung, ob die Input-Marken größer als 18 sind oder nicht. Ob er Shischa rauchen darf oder nicht.</p>
+
     <form>
-        <label for="ageinput">Alter 1</label>
-        <input type="text" name="name" id="ageinput" placeholder="">
-        <label for="ageinput2">Alter 2</label>
-        <input type="text" name="name" id="ageinput2" placeholder="">
-        <button id="doublebtn" type="button" onclick="diff()">Berechnen</button>
+
+        <label for="ageinput">Geben Sie Ihr Alter ein</label>
+        <input type="number" name="ageinput" id="ageinput" placeholder="type your age">
+        <button id="check" type="button" onclick="shischa()">Alter</button>
     </form>
-    <p>Die Differenz ist:</p>
-    <h1 id="output"></h1>
+
+    <p class="output"></p>
 
     <script src="./assets/js/main.js"></script>
     
